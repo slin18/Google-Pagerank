@@ -18,7 +18,8 @@ The code is based on:
 Newman, Mark E. J. Networks: An Introduction. Oxford: Oxford U, 2015. Print.
 Chapter 7.4 
 
-This is for Cal Poly Math Senior Project Spring 2017
+This is for Cal Poly Math Senior Project Spring 2017 
+Credit: Breylor Grout, Sam Lin
 
 Let me know your comments and issues and 
 
