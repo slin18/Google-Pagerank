@@ -19,4 +19,6 @@ Chapter 7.4
 
 This is for Cal Poly Math Senior Project Spring 2017
 
+Let me know your comments and issues and 
+
 Enjoy!
