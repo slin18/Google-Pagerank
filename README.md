@@ -9,8 +9,8 @@ To run this program
 If you wish to change the input, you must edit the code directly and follow the steps 1-3 
 There is no user input functionality
 
-Note: This is not how Google calculates PageRank
-      They have many more complex algorithms for ranking pages; this is probably one of the 
+Note: This is not how Google calculates PageRank<return>
+      They have many more complex algorithms for ranking pages; this is probably one of the <return> 
       basic ones
       
 The code is based on:
