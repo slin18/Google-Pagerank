@@ -7,6 +7,7 @@ To run this program
 3. Type: python3 <filename>.py where filename is pagerank if you did not alter
 
 If you wish to change the input, you must edit the code directly and follow the steps 1-3 
+You can use other inputs provided, or create your own!
 There is no user input functionality
 
 Note: This is not how Google calculates PageRank<return>
