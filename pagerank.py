@@ -8,7 +8,7 @@ graph = {'A': ['B', 'C'],
          'D': ['C'],
          'E': ['F'],
          'F': ['C']}
-
+#some other inputs you can try
 '''
 graph = {'1': ['2'],
 	     '2': ['1','3','4'],
@@ -59,6 +59,11 @@ def in_degree(graph):
 	return a
 print("\nIndegree: %s" %in_degree(graph))
 
+'''
+	Look_up references the keys as integer values from 0 to len(graph)
+	This is to ensure all non-integer key values are compatible with
+	numpy matrix
+'''
 def look_up():
 	lookUp = {}
 	i = 0
@@ -72,7 +77,7 @@ def look_up():
 '''
 	A_ij = { if there is an edge from j to i, 1 
 		   { else 0
-	ex: B to A -> 1,2 = 1; A->A
+	ex: B to A -> 1,2 = 1; A->A -> 1,1 = 1
 	Note: can use in-degree to check matrix
 		  number of 1s for row of key corresponds to 
 	      number of 1s for matrix
@@ -92,8 +97,9 @@ def convert_matrix():
 
 print("\nA\n%s" %convert_matrix())
 
-'''Whoops
-   This function looks at the contents and compares it to the keys
+'''Whoops: this converted the matrix incorrectly 
+	 What it did: if the j is in i, mark 1 vs
+	 What its supposed to do: if there exists an edge from j to i
 def convert_matrix(): 
 	matrixA = np.zeros((len(graph), len(graph)))
 	lookUpGraph = look_up()
